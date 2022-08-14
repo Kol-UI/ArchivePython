@@ -1,0 +1,34 @@
+Nous organiserons notre main de la sorte : 
+(peut être des oublis) 
+
+Fonction d'affichage du vaisseau
+
+Fonction d'affichage du background 
+
+Fonction d'affichage du laser
+
+Fonction de gestion des colisions 
+
+Fonction prtincipale de jeu 
+	
+	Déclaration des variables 
+	
+	Initialistion de la zone d'affichage
+	
+	Boucle de jeu (tant que pas perdu et pas gagné)
+		
+		Appelle des fonctions d'affichage 
+
+		Appelle des fonctions de collisions
+
+		Boucle d'evenement clavier et souris
+			
+			q = vaisseau va à gauche
+			s = en bas
+			d = à gauche
+			z = en haut
+			espace = tire un laser 
+
+	Fin de la boucle de jeu
+	
+	Fermeture de la fenetre

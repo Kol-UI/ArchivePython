@@ -1,0 +1,7 @@
+fond = pygame.image.load('fond.png')
+ma_surface.blit(fond, (0, 0))
+
+
+/// Recadrer une image 
+
+img = pygame.transform.scale(img, (500,500))

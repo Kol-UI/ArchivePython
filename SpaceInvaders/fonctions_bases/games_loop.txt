@@ -1,0 +1,17 @@
+import pygame, sys
+from pygame.locals import *
+pygame.init()
+FPS = 30
+fps_clock = pygame.time.Clock()
+ma_surface = pygame.display.set_mode((500,300))
+pygame.display.set_caption('Nom de la fenetre')
+red = (255,0,0)
+ma_surface.fill(red)
+in_progress = True
+while in_progress:
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            in_progress = False
+    pygame.display.update()
+    fps_clock.tick(FPS)
+pygame.quit()

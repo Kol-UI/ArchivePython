@@ -1,0 +1,1 @@
+pygame.draw.line(mySurface, couleur, (point_dep_x, point_dep_y), (point_arrive_x, point_arrive_y)

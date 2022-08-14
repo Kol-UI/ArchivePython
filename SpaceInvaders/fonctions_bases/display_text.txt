@@ -1,0 +1,6 @@
+
+font_obj = pygame.font.Font('freesansbold.ttf', 40)
+texte_surface = font_obj.render("Text", True, (255, 255, 255))
+texte_rect = texte_surface.get_rect()
+texte_rect.topleft = (x, y)
+ma_surface.blit(texte_surface, texte_rect)
