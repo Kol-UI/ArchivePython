@@ -1,0 +1,45 @@
+1) Relever :
+	- Les conditions d'arrêt
+	- Les actions de récursivité
+
+2) Etablir la formule de récurrence :
+	
+		| ... si ...
+		| ... si ...
+		| 
+	X[i] =  | ... X[i-...] si ...
+		| ... X[i-...] si ...
+		|  ...
+
+3) Coder la récursive naïve :
+	
+	if ... :
+		...
+
+	elif ...:
+		...
+	elif ...:
+		...X[i-...]
+	else:
+		...
+
+4) Coder le Top Down (rajouter track) :
+	
+	if TRACK CALCULE:
+		track...
+	elif ... :
+		track...
+
+	elif ...:
+		track...
+	elif ...:
+		track....X[i-...]
+	else:
+		track...
+
+5) Coder le Bottom Up  :
+	
+	track[...] conditions d'arrêt dedans
+	for in track :
+		track...
+
